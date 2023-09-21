@@ -1,0 +1,128 @@
+<app-navbar></app-navbar>
+
+<!-- 
+    - #BLOG - DETAIL
+  -->
+  <div class="container-blog">
+    <div class="hero-blog" [style.background]="'url(' + backgroundImageUrl + ') no-repeat center center / cover'">
+    </div>
+
+    <main class="detail-blog">
+      <div class="blog-content" *ngFor="let data of blogData">
+        <h2>{{data.blogTitle}}</h2>
+        <div class="profile-container">
+            <div class="profile">
+                <div class="img-container">
+                  <img [src]="data.thumbnailAuthor" [alt]="data.author">
+                </div>
+                <div class="text">
+                    <h3>Autor: {{data.author}}</h3>
+                    <p>{{data.publicationDate | dayJs: 'formNow'}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+        
+            <h4>{{data.subtitles.items[0].description}}</h4>
+            <p>{{data.subtitles.items[0].contenido}}</p>
+            <div class="content-img-container">
+              <img [src]='data.images.items[0].url' [alt]='data.images.items[0].imageDescription'>
+            </div>
+            <p class="img-desc">{{data.images.items[0].imageDescription}}</p>
+        
+            <h4>{{data.subtitles.items[1].description}}</h4>
+            <p>{{data.subtitles.items[1].contenido}}</p>
+
+            <h4>{{data.subtitles.items[2].description}}</h4>
+            <p [innerHTML]="htmlContent"></p>
+
+            <h4>{{data.subtitles.items[3].description}}</h4>
+            <p [innerHTML]="htmlContent2"></p>
+            
+
+            <!-- CODIGO FUENTE EJEMPLOS -->
+            <h4>{{data.codeTitle}}</h4>
+            <h4>{{data.code.items[0].numberCode}}</h4>
+            <p class="description_example">{{data.code.items[0].description}}</p>
+            <a href="{{data.code.items[0].link}}" target="_blank" class="enlace_codigo">
+              <button class="button-btn">
+                <span class="text">Ver código fuente</span>
+              </button>
+            </a>
+            <h4>{{data.code.items[1].numberCode}}</h4>
+            <p class="description_example">{{data.code.items[1].description}}</p>
+            <a href="{{data.code.items[1].link}}" target="_blank" class="enlace_codigo">
+              <button class="button-btn">
+                <span class="text">Ver código fuente</span>
+              </button>
+            </a>
+            <h4>{{data.code.items[2].numberCode}}</h4>
+            <p class="description_example">{{data.code.items[2].description}}</p>
+            <a href="{{data.code.items[2].link}}" target="_blank" class="enlace_codigo">
+              <button class="button-btn">
+                <span class="text">Ver código fuente</span>
+              </button>
+            </a>
+        </div>
+        <div class="tags-blog">
+            <p>tags:</p>
+            <a href="javascript:void(0);">{{data.tags.items[0].name}}</a>
+            <a href="javascript:void(0);">{{data.tags.items[1].name}}</a>
+            <a href="javascript:void(0);">{{data.tags.items[3].name}}</a>
+        </div>
+        <!-- Share -->
+        <div class="share post-container">
+          <span class="share-title">Comparte este artículo</span>
+          <div class="social">
+            <a href="{{facebookShareLink}}" target="_blank"><i class='bx bxl-facebook share-icon facebook'></i></a>
+            <a href="{{twitterShareLink}}" target="_blank"><i class="bx bxl-twitter share-icon twitter"></i></a>
+            <a href="{{whatsappShareLink}}" target="_blank"><i class="bx bxl-whatsapp share-icon whatsapp"></i></a>
+            <a href="{{linkedinShareLink}}" target="_blank"><i class="bx bxl-linkedin share-icon linkedin"></i></a>
+          </div>
+          <div class="qrcodeImage">
+            <qrcode
+              [qrdata]="generateQR"
+              [allowEmptyString]="true"
+              [ariaLabel]="'QR Code image with the following content...'"
+              [cssClass]="'center'"
+              [colorDark]="'#000000'"
+              [colorLight]="'#ffffff'"
+              [elementType]="'canvas'"
+              [errorCorrectionLevel]="'M'"
+              [imageSrc]="'https://cdn-icons-png.flaticon.com/128/5024/5024212.png'"
+              [imageHeight]="75"
+              [imageWidth]="75"
+              [margin]="4"
+              [scale]="64"
+              [title]="shareName"
+              [width]="300"
+            ></qrcode>
+          </div>
+        </div>
+        <a routerLink="/blog" class="redirect-blog">
+          <button class="button">
+            Go back
+            <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+              <path clip-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z" fill-rule="evenodd"></path>
+            </svg>
+          </button>
+        </a>
+      </div>
+
+      <!-- En caso no se encuentra el blog, muestra esto -->
+      <div class="content blog-not-found" *ngIf="existBlog">
+        <p>Al parecer no se encuentra el blog que buscaste 🥺</p>
+
+        <a routerLink="/blog" class="redirect-blog">
+          <button class="button">
+            Go back
+            <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+              <path clip-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z" fill-rule="evenodd"></path>
+            </svg>
+          </button>
+        </a>
+      </div>
+    </main>
+  </div>
+
+  <app-footer></app-footer>

@@ -12,6 +12,12 @@
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
+          "allowedCommonJsDependencies": [
+            "qrcode",
+            "dayjs",
+            "dayjs/locale/es",
+            "dayjs/plugin/relativeTime"
+          ],
           "options": {
             "outputPath": "dist/website-blog",
             "index": "src/index.html",

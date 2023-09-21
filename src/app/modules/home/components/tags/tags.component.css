@@ -1,0 +1,21 @@
+@media (min-width: 575px) {
+    :is(.tags, .about) .section-text {
+        max-width: 420px;
+        margin-inline: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .tags .grid-list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .tags .section-text {
+        margin-block-end: 75px;
+    }
+    .tags .grid-list {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
