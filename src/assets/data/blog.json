@@ -35,6 +35,18 @@
 					"items": [{
 							"url": "https://cdn.educba.com/academy/wp-content/uploads/2019/12/numpy-ndarray.png",
 							"imageDescription": "Figura 1. Ejemplos funcionales y diferentes de NumPy"
+						},
+						{
+							"url": "https://geekflare.com/wp-content/uploads/2022/04/numpy-reshape-array-1116x628.png",
+							"imageDescription": "Figura 2: ¿Qués es Numpy?"
+						},
+						{
+							"url": "https://ademass.com/wp-content/uploads/2023/10/Blog-Numpy-1280-x-720-px.png",
+							"imageDescription": "Figura 3: Ventajas de la librería Numpy en Python"
+						},
+						{
+							"url": "https://scipy-lectures.org/_images/numpy_fancy_indexing.png",
+							"imageDescription": "Figura 4: Usos de la librería Numpy en Python"
 						}
 					]
 				},
@@ -43,17 +55,20 @@
 					"items": [{
 							"numberCode": "📌 Ejemplo 1: Creación de un arreglo NumPy y operaciones básicas",
 							"description": "Este ejemplo muestra cómo crear un arreglo NumPy unidimensional, realizar operaciones matemáticas simples y acceder a elementos específicos del arreglo.",
-							"link":"https://colab.research.google.com/drive/1SeOv9fFYZir9TI4mChJzRES8TYKzdb5d?authuser=3"
+							"link":"https://colab.research.google.com/drive/1SeOv9fFYZir9TI4mChJzRES8TYKzdb5d?authuser=3",
+							"verFuente": "Ver código fuente"
 						},
 						{
 							"numberCode": "📌 Ejemplo 2: Creación de una matriz de identidad",
 							"description": "Este ejemplo demuestra cómo usar NumPy para crear una matriz de identidad 3x3, que es una matriz cuadrada con unos en la diagonal principal y ceros en el resto de las posiciones.",
-							"link":"https://colab.research.google.com/drive/1BqghAXHVIApjelf4sz3xNbK2N7NA24zO?authuser=3"
+							"link":"https://colab.research.google.com/drive/1BqghAXHVIApjelf4sz3xNbK2N7NA24zO?authuser=3",
+							"verFuente": "Ver código fuente"
 						},
                         {
 							"numberCode": "📌 Ejemplo 3: Operaciones estadísticas básicas",
 							"description": "Este ejemplo ilustra cómo utilizar NumPy para realizar operaciones estadísticas básicas en un conjunto de datos, como calcular la media, la mediana y la desviación estándar.",
-							"link":"https://colab.research.google.com/drive/1Rhg2igSF6Z-jMUoXmIzu0JJoCQhUi1o3?authuser=3"
+							"link":"https://colab.research.google.com/drive/1Rhg2igSF6Z-jMUoXmIzu0JJoCQhUi1o3?authuser=3",
+							"verFuente": "Ver código fuente"
 						}
 					]
 				},
@@ -80,6 +95,102 @@
 				"urlBlog": "https://anthony-avellaneda-desarrollo-adaptat.netlify.app/dist/pages/detail-blog/detail-blog.html?id=1",
 				"message": "Domina NumPy en Python: potencia tus habilidades en programación y análisis de datos. Ventajas, usos y ejemplos prácticos. ¡Impulsa tu carrera!",
 				"hashtags": ["Python", "NumPy ", "CienciaDeDatos ", "Programación"]
+			},
+			{
+				"id": 2,
+				"title": "Desbloqueando el Éxito: La Fuerza de las Historias de Usuario, la Experiencia de Usuario y los Prototipos en la Era Digital",
+				"description": "La historia y experiencia de usuarios nos muestra la preocupación por la comodidad, eficiencia y la satisfacción del usuario a lo largo del tiempo y un factor clave en esto es la tecnología.",
+				"publicationDate": "2023-10-28T20:00:00",
+                "readingTime": "5",
+                "date": "Oct 28, 2023",
+				"author": "Anthony Avellaneda",
+				"thumbnail": "https://1.bp.blogspot.com/-47gU4ui_TBo/UXdXL3wGvRI/AAAAAAAACCM/fJ2pmOPPHQw/s1600/EstructuraHistoriaDeUsuarioTarjeta.jpg",
+				"thumbnailBlog": "https://josefacchin.com/wp-content/uploads/2020/04/experiencia-de-usuario-ux.png",
+				"backgroundImage": "https://static1.squarespace.com/static/5a5977a7f43b55eff1588911/t/5ea8aff9ec78e0341d73c410/1588113404519/Social+Historias+de+usuario.png?format=1500w",
+                "thumbnailAuthor": "./assets/images/autores/primary-author.jpg",
+				"tagDescription": "Python",
+				"blogTitle": "Historia de Usuario, Prototipos y Experiencia de Usuario",
+				"tags": {
+					"items": [{
+							"name": "UX"
+						},
+						{
+							"name": "Historia de Usuario"
+						}
+						,
+						{
+							"name": "Experiencia de Usuario"
+						}
+						,
+						{
+							"name": "Prototipos"
+						}
+					]
+				},
+				"images": {
+					"items": [{
+							"url": "https://miro.medium.com/v2/resize:fit:2732/1*OXgRHuX1LBXOcWEUL8-oUQ.png",
+							"imageDescription": "Figura 1. Introducción"
+						},
+						{
+							"url": "https://www.blmovil.com/wp-content/uploads/sites/3/2019/04/Scrum_HU6.png",
+							"imageDescription": "Figura 2. Historia de usuario"
+						},
+						{
+							"url": "https://www.claseejecutiva.uc.cl/wp-content/uploads/2021/03/experiencia-de-usuario-w-min.jpg",
+							"imageDescription": "Figura 3. Experiencia de usuario"
+						},
+						{
+							"url": "https://img.freepik.com/vector-premium/ilustracion-vector-plano-desarrollo-web-creacion-prototipos-experiencia-usuario-aislado_125133-1655.jpg",
+							"imageDescription": "Figura 4. Prototipos"
+						}
+					]
+				},
+				"codeTitle": "📚📝 Referencias:",
+				"code": {
+					"items": [{
+							"numberCode": "Historias de usuario: una guía práctica - Jeff Patton 📘",
+							"description": "📝✨ Las historias de usuario son un enfoque ágil para la captura y comunicación de los requisitos del usuario. Son una forma de describir las necesidades de los usuarios en términos de tareas que deben realizarse y los resultados que deben lograrse.",
+							"link":"https://www.scrummanager.com/files/scrum_manager_historias_usuario.pdf",
+							"verFuente": "Ver referencia"
+						},
+						{
+							"numberCode": "Elementos de la Experiencia de Usuario - Jesse James Garrett 🌈",
+							"description": "🌟🎨 La experiencia de usuario (UX) es el proceso de diseñar productos y servicios que sean útiles, usables y agradables para los usuarios. El diseño de UX se centra en las necesidades y deseos de los usuarios, y utiliza un enfoque iterativo para probar y mejorar el diseño.",
+							"link":"http://www.uxables.com/diseno-ux-ui/elementos-de-la-experiencia-de-usuario-jesse-james-garrett/",
+							"verFuente": "Ver referencia"
+						},
+                        {
+							"numberCode": "Prototipado: una guía práctica para la creación de prototipos de productos digitales - Mike Kuniavsky 🛠️",
+							"description": "🛠️👥 Los prototipos son modelos funcionales o no funcionales de un producto o servicio. Se utilizan para probar ideas de diseño y obtener comentarios de los usuarios.",
+							"link":"https://repositorio.up.edu.pe/bitstream/handle/11354/3413/AE101a.pdf?sequence=6&isAllowed=y",
+							"verFuente": "Ver referencia"
+						}
+					]
+				},
+				"subtitles": {
+					"items": [{
+							"description": "🚀 Introducción:",
+							"contenido": "En el dinámico mundo de la tecnología y el diseño de productos, la consideración de la historia y experiencia de usuarios es crucial para el desarrollo exitoso de cualquier producto o servicio. La historia de usuarios no solo revela la evolución y el contexto de las necesidades de los usuarios, sino que también proporciona una base sólida para comprender y mejorar la experiencia de los usuarios. Este artículo explorará en detalle la importancia de comprender la historia y la experiencia de los usuarios, así como los componentes clave para crear una experiencia excepcional."
+						},
+						{
+							"description": "📜 Historia de Usuarios:",
+							"contenido": "La historia de usuarios sirve como un registro detallado de las interacciones pasadas entre los usuarios y un producto o servicio. Al examinar la historia de usuarios, se revelan patrones y tendencias que permiten a los diseñadores y desarrolladores comprender las necesidades cambiantes de los usuarios con el tiempo. Este análisis histórico no solo se limita a la funcionalidad del producto, sino que también considera el contexto social, cultural y tecnológico en el que se desarrolla la interacción. <br><br> Un ejemplo claro de la importancia de la historia de usuarios se evidencia en la evolución de las redes sociales. Comenzando con simples foros en línea y comunidades virtuales, las redes sociales han pasado a convertirse en plataformas integrales que conectan a personas de todo el mundo. Comprender cómo han evolucionado las preferencias de los usuarios a lo largo del tiempo ha permitido a las empresas adaptar sus plataformas para satisfacer las demandas en constante cambio de una base de usuarios cada vez más diversa."
+						},
+						{
+							"description": "🎨 Experiencia de Usuarios:",
+							"contenido":"La experiencia de usuarios (UX) es la piedra angular de cualquier producto exitoso. Se refiere a la interacción general de un usuario con un producto, sistema o servicio y abarca varios aspectos, como la facilidad de uso, la accesibilidad, el diseño visual, la utilidad y la eficiencia. Los componentes clave de una experiencia de usuario sólida incluyen: <br><br><ul class='advantages'><li>✔️ <b>Facilidad de Uso ✨:</b> Los productos intuitivos y fáciles de usar son esenciales para una buena experiencia de usuario. La navegación y las funciones deben ser claras y comprensibles para todo tipo de usuarios.</li><li> ✔️ <b>Diseño Atractivo 🎨:</b> NEl diseño visual atractivo y funcional es fundamental para atraer y retener a los usuarios. Los colores, las tipografías y los elementos visuales deben combinarse de manera coherente para ofrecer una experiencia estéticamente agradable.</li><li>✔️ <b>Accesibilidad ♿:</b> Garantizar que el producto sea accesible para una amplia gama de usuarios, incluidas aquellas personas con discapacidades, es esencial. Esto implica considerar el diseño para todos, incluidas las adaptaciones para personas con discapacidad visual, auditiva o motora.</li></ul>"
+						},
+						{
+							"description": "🛠️ Prototipos:",
+							"contenido":"Los prototipos juegan un papel fundamental en el proceso de diseño y desarrollo de productos, permitiendo a los diseñadores y desarrolladores probar y refinar ideas antes de la producción completa. En esta era de innovación acelerada, los prototipos se han convertido en una herramienta indispensable para crear productos que satisfagan las necesidades y expectativas de los usuarios. Este artículo explora la importancia de los prototipos en el proceso de diseño y desarrollo, así como los beneficios clave que aportan a la creación de productos exitosos. Estos son: <br><ul class='uses'><li>✔️ <b>Prototipos de Baja Fidelidad 📐:</b> Estos prototipos suelen ser versiones simples y esquemáticas que se utilizan para probar conceptos y flujos de trabajo. Pueden ser bocetos rápidos en papel o maquetas de cartón que ayudan a visualizar la disposición básica de un producto o servicio. Los prototipos de baja fidelidad son útiles al inicio del proceso de diseño para explorar ideas de manera rápida y económica.</li><li>✔️ <b>Prototipos de Alta Fidelidad 🖥️:</b> Estos prototipos son representaciones más detalladas y funcionales del producto final. Suelen ser interactivos y permiten a los usuarios experimentar la funcionalidad real del producto. Los prototipos de alta fidelidad son útiles en etapas posteriores del proceso de diseño, ya que ayudan a identificar posibles problemas de usabilidad y a refinar características clave antes de la producción.</li><li>✔️ <b>Prototipos de Usuario 🙋‍♂️:</b> Estos prototipos se centran en la experiencia del usuario y permiten a los diseñadores recopilar comentarios directos de los usuarios finales. Los prototipos de usuario pueden variar en fidelidad y se utilizan para evaluar la usabilidad y la satisfacción del usuario, lo que ayuda a mejorar y perfeccionar el producto antes de su lanzamiento.</li></ul>"
+						}
+					]
+				},
+				"mockup": "../../../assets/images/mockups/mockup_blog_1.png",
+				"urlBlog": "https://anthony-avellaneda-desarrollo-adaptat.netlify.app/dist/pages/detail-blog/detail-blog.html?id=2",
+				"message": "¡Descubre la importancia de las historias de usuario, la experiencia de usuario y los prototipos en el desarrollo de productos y servicios! 📘🌈🛠️ ¡Lee más en nuestro último blog!",
+				"hashtags": ["UXDesign", "DigitalPrototyping", "Innovación", "ExperienciaDelUsuario"]
 			}
 		]
 	}

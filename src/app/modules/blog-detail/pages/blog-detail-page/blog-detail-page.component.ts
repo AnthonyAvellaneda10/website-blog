@@ -37,8 +37,12 @@ export class BlogDetailPageComponent {
     this.apiService.getBlogData().subscribe((blog) => {
       this.lenghtData = blog.data.results.length;
       blog.data.results.forEach((getData) => {
+
+        if (this.lenghtData < parseInt(this.id, 10) || 0 >= parseInt(this.id, 10)) {
+          this.blogNotFound();
+        }
         
-        if (this.id == getData.id.toString()) {
+        else if (this.id == getData.id.toString()) {
           this.title.setTitle(getData.title);
           this.generateQR = window.location.href;
           this.shareName = getData.title;
@@ -59,9 +63,6 @@ export class BlogDetailPageComponent {
             console.error("'getData.hashtags' no está definido o no es un arreglo");
           }
         }
-        else{
-          this.blogNotFound();
-        }
       });
     });
   }
@@ -71,7 +72,7 @@ export class BlogDetailPageComponent {
   }
 
   blogNotFound() {
-    this.backgroundImageUrl = 'https://www.beedigital.es/wp-content/uploads/2021/06/Beedigital-404.jpg';
+    this.backgroundImageUrl = 'https://areaf5.es/wp-content/uploads/2023/06/404.jpg';
     this.title.setTitle('Blog not found | Desarrollo Adaptativo');
     this.existBlog = true;
   }

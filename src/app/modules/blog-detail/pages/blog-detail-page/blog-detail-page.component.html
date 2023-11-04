@@ -32,12 +32,24 @@
         
             <h4>{{data.subtitles.items[1].description}}</h4>
             <p>{{data.subtitles.items[1].contenido}}</p>
+            <div class="content-img-container">
+              <img [src]='data.images.items[1].url' [alt]='data.images.items[1].imageDescription'>
+            </div>
+            <p class="img-desc">{{data.images.items[1].imageDescription}}</p>
 
             <h4>{{data.subtitles.items[2].description}}</h4>
             <p [innerHTML]="htmlContent"></p>
+            <div class="content-img-container">
+              <img [src]='data.images.items[2].url' [alt]='data.images.items[2].imageDescription'>
+            </div>
+            <p class="img-desc">{{data.images.items[2].imageDescription}}</p>
 
             <h4>{{data.subtitles.items[3].description}}</h4>
             <p [innerHTML]="htmlContent2"></p>
+            <div class="content-img-container">
+              <img [src]='data.images.items[3].url' [alt]='data.images.items[3].imageDescription'>
+            </div>
+            <p class="img-desc">{{data.images.items[3].imageDescription}}</p>
             
 
             <!-- CODIGO FUENTE EJEMPLOS -->
@@ -46,21 +58,21 @@
             <p class="description_example">{{data.code.items[0].description}}</p>
             <a href="{{data.code.items[0].link}}" target="_blank" class="enlace_codigo">
               <button class="button-btn">
-                <span class="text">Ver código fuente</span>
+                <span class="text">{{data.code.items[0].verFuente}}</span>
               </button>
             </a>
             <h4>{{data.code.items[1].numberCode}}</h4>
             <p class="description_example">{{data.code.items[1].description}}</p>
             <a href="{{data.code.items[1].link}}" target="_blank" class="enlace_codigo">
               <button class="button-btn">
-                <span class="text">Ver código fuente</span>
+                <span class="text">{{data.code.items[1].verFuente}}</span>
               </button>
             </a>
             <h4>{{data.code.items[2].numberCode}}</h4>
             <p class="description_example">{{data.code.items[2].description}}</p>
             <a href="{{data.code.items[2].link}}" target="_blank" class="enlace_codigo">
               <button class="button-btn">
-                <span class="text">Ver código fuente</span>
+                <span class="text">{{data.code.items[2].verFuente}}</span>
               </button>
             </a>
         </div>
