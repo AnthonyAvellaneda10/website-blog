@@ -108,7 +108,7 @@
 				"thumbnailBlog": "https://josefacchin.com/wp-content/uploads/2020/04/experiencia-de-usuario-ux.png",
 				"backgroundImage": "https://static1.squarespace.com/static/5a5977a7f43b55eff1588911/t/5ea8aff9ec78e0341d73c410/1588113404519/Social+Historias+de+usuario.png?format=1500w",
                 "thumbnailAuthor": "./assets/images/autores/primary-author.jpg",
-				"tagDescription": "Python",
+				"tagDescription": "UX",
 				"blogTitle": "Historia de Usuario, Prototipos y Experiencia de Usuario",
 				"tags": {
 					"items": [{
@@ -191,6 +191,102 @@
 				"urlBlog": "https://anthony-avellaneda-desarrollo-adaptat.netlify.app/dist/pages/detail-blog/detail-blog.html?id=2",
 				"message": "¡Descubre la importancia de las historias de usuario, la experiencia de usuario y los prototipos en el desarrollo de productos y servicios! 📘🌈🛠️ ¡Lee más en nuestro último blog!",
 				"hashtags": ["UXDesign", "DigitalPrototyping", "Innovación", "ExperienciaDelUsuario"]
+			},
+			{
+				"id": 3,
+				"title": "Descubriendo el Poder de Pandas: Una Guía Completa 🚀🐼",
+				"description": "En el presente articulo hablaremos sobre como es que funciona la librería de Pandas en Python y veremos un pequeño código para que puedan aprender a usarlo de la manera sencilla y de paso ver porque es tan usado actualmente en la manipulación de datos en temas como la ciencia de datos, el Machine learning, etc.",
+				"publicationDate": "2023-12-02T20:00:00",
+                "readingTime": "5",
+                "date": "Dec 02, 2023",
+				"author": "Anthony Avellaneda",
+				"thumbnail": "https://svitla.com/uploads_converted/1/8365-28_july.webp?1627475003",
+				"thumbnailBlog": "https://i0.wp.com/www.activestate.com/wp-content/uploads/2020/10/everything-about-pandas.png?fit=1200%2C600&ssl=1",
+				"backgroundImage": "https://i.ytimg.com/vi/tfKkIugx3lQ/maxresdefault.jpg",
+                "thumbnailAuthor": "./assets/images/autores/primary-author.jpg",
+				"tagDescription": "Pandas",
+				"blogTitle": "Pandas: La Herramienta Imprescindible para Manipular Datos en Python",
+				"tags": {
+					"items": [{
+							"name": "Pandas"
+						},
+						{
+							"name": "Análisis de datos"
+						}
+						,
+						{
+							"name": "Machine Learning"
+						}
+						,
+						{
+							"name": "Data Frame"
+						}
+					]
+				},
+				"images": {
+					"items": [{
+							"url": "https://codigital.ec/wp-content/uploads/2023/02/biblioteca_pandas.jpg",
+							"imageDescription": "Figura 1. Introducción"
+						},
+						{
+							"url": "https://live.staticflickr.com/65535/48055505737_22d1e49a3f_b.jpg",
+							"imageDescription": "Figura 2. ¿Qué es Pandas?"
+						},
+						{
+							"url": "https://rafneta.github.io/CienciaDatosPythonCIDE/_images/unstack.PNG",
+							"imageDescription": "Figura 3. Ventajas de Pandas"
+						},
+						{
+							"url": "https://www.freecodecamp.org/espanol/news/content/images/2022/03/para-que-se-usa.png",
+							"imageDescription": "Figura 4. Usos de Pandas"
+						}
+					]
+				},
+				"codeTitle": "📚📝 Referencias:",
+				"code": {
+					"items": [{
+							"numberCode": "Historias de usuario: una guía práctica - Jeff Patton 📘",
+							"description": "📝✨ Las historias de usuario son un enfoque ágil para la captura y comunicación de los requisitos del usuario. Son una forma de describir las necesidades de los usuarios en términos de tareas que deben realizarse y los resultados que deben lograrse.",
+							"link":"https://www.scrummanager.com/files/scrum_manager_historias_usuario.pdf",
+							"verFuente": "Ver referencia"
+						},
+						{
+							"numberCode": "Elementos de la Experiencia de Usuario - Jesse James Garrett 🌈",
+							"description": "🌟🎨 La experiencia de usuario (UX) es el proceso de diseñar productos y servicios que sean útiles, usables y agradables para los usuarios. El diseño de UX se centra en las necesidades y deseos de los usuarios, y utiliza un enfoque iterativo para probar y mejorar el diseño.",
+							"link":"http://www.uxables.com/diseno-ux-ui/elementos-de-la-experiencia-de-usuario-jesse-james-garrett/",
+							"verFuente": "Ver referencia"
+						},
+                        {
+							"numberCode": "Prototipado: una guía práctica para la creación de prototipos de productos digitales - Mike Kuniavsky 🛠️",
+							"description": "🛠️👥 Los prototipos son modelos funcionales o no funcionales de un producto o servicio. Se utilizan para probar ideas de diseño y obtener comentarios de los usuarios.",
+							"link":"https://repositorio.up.edu.pe/bitstream/handle/11354/3413/AE101a.pdf?sequence=6&isAllowed=y",
+							"verFuente": "Ver referencia"
+						}
+					]
+				},
+				"subtitles": {
+					"items": [{
+							"description": "🚀 Introducción:",
+							"contenido": "En el fascinante mundo del análisis de datos en Python, una herramienta que destaca por su versatilidad y eficiencia es la librería Pandas. En este artículo, exploraremos qué es Pandas, sus ventajas y cómo utilizarla de manera efectiva en la práctica."
+						},
+						{
+							"description": " 🐼🤔 ¿Qué es Pandas?:",
+							"contenido": "Pandas es una librería de software libre para el análisis de datos en el lenguaje de programación Python. Desarrollada por Wes McKinney, esta potente herramienta proporciona estructuras de datos flexibles y herramientas diseñadas para facilitar el trabajo con datos estructurados. 🐾📊"
+						},
+						{
+							"description": "🌟✅ Ventajas de la librería Pandas:",
+							"contenido":"Explorar el vasto campo del análisis de datos en Python nos lleva a descubrir una herramienta excepcional: Pandas. Esta librería, desarrollada por Wes McKinney, no solo se ha convertido en un pilar fundamental para profesionales de datos, sino que también ha ganado la admiración de la comunidad por su versatilidad y eficiencia. A continuación, desglosamos algunas de las razones por las cuales Pandas destaca en el mundo del análisis de datos. 💡🔍 <br><br><ul class='advantages'><li>✔️ <b> Estructuras de Datos Poderosas 💪🏻📈:</b> Pandas ofrece dos estructuras de datos principales: el DataFrame y la Serie. El DataFrame es una tabla bidimensional con etiquetas en filas y columnas, mientras que la Serie es una estructura unidimensional similar a un array o lista. Estas estructuras permiten trabajar con datos de manera intuitiva y eficiente.</li><li> ✔️ <b>Manipulación de Datos Eficiente 🧹🔄:</b> Pandas facilita la carga, limpieza y manipulación de datos. Su amplio conjunto de funciones para filtrar, ordenar, agrupar y realizar operaciones sobre datos simplifica tareas que de otra manera serían complejas y laboriosas.</li><li>✔️ <b>Integración con otras Librerías 🤖🔗:</b> Pandas se integra sin problemas con otras librerías populares como NumPy, Matplotlib y Scikit-Learn. Esta interoperabilidad facilita la creación de flujos de trabajo completos para el análisis de datos y la construcción de modelos de machine learning.</li> <li>✔️ <b>Manejo de Datos Faltantes 🕵️‍♂️🔍:</b> La librería incluye herramientas robustas para manejar valores nulos, lo que es crucial en cualquier análisis de datos realista. Pandas permite eliminar, rellenar o interpolar datos faltantes de manera sencilla y eficiente.</li></ul>"
+						},
+						{
+							"description": "📊 Usos Comunes de Pandas:",
+							"contenido":"Pandas, con su poderosa capacidad para manipular y analizar datos, encuentra aplicaciones en una amplia gama de escenarios. Aquí te presento algunos de los usos más comunes de esta versátil librería 🐼💻. <br><ul class='uses'><li>✔️ <b>Análisis de Datos Financieros 📈💹:</b> Pandas es ampliamente utilizado en el análisis financiero. Desde la manipulación de datos de precios de acciones hasta la creación de informes financieros, la flexibilidad de Pandas es esencial para profesionales en el mundo de las finanzas.</li><li>✔️ <b>Ciencia de Datos y Machine Learning 🤖🔬:</b> En proyectos de ciencia de datos y machine learning, Pandas se utiliza para la limpieza, exploración y preparación de datos. Su integración con librerías como NumPy y Scikit-Learn facilita la construcción y evaluación de modelos.</li><li>✔️ <b>Investigación Académica 🎓🔍:</b> En el ámbito académico, Pandas es una herramienta valiosa para analizar conjuntos de datos en investigaciones científicas. Su capacidad para trabajar con datos heterogéneos facilita el análisis de diversas fuentes de información.</li><li>✔️ <b>Ciencia de Datos y Machine Learning 🤖🔬:</b> En proyectos de ciencia de datos y machine learning, Pandas se utiliza para la limpieza, exploración y preparación de datos. Su integración con librerías como NumPy y Scikit-Learn facilita la construcción y evaluación de modelos.</li><li>✔️ <b>Desarrollo de Aplicaciones Web 🌐🔧:</b> En el desarrollo web, Pandas puede ser utilizado en conjunto con frameworks como Flask o Django para gestionar y presentar datos en aplicaciones web. La flexibilidad de Pandas facilita la creación de dashboards interactivos.</li><li>✔️ <b>Automatización de Tareas de Datos ⚙️🔄:</b> Pandas se usa frecuentemente para automatizar tareas relacionadas con datos, como la actualización de informes periódicos, la limpieza de datos en grandes conjuntos y la generación de resúmenes automáticos.</li></ul>"
+						}
+					]
+				},
+				"mockup": "../../../assets/images/mockups/mockup_blog_1.png",
+				"urlBlog": "https://anthony-avellaneda-desarrollo-adaptat.netlify.app/dist/pages/detail-blog/detail-blog.html?id=3",
+				"message": " ¡Optimiza tus procesos y lleva tu capacidad de análisis al siguiente nivel con Pandas 🐼✨! ",
+				"hashtags": ["Pandas", "ManipulaciónDeDatos", "DesarrolloWeb", "MachineLearning"]
 			}
 		]
 	}

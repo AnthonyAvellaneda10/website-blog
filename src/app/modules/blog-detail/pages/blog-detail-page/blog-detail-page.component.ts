@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
 import { ApiService } from 'src/app/modules/home/services/api.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-blog-detail-page',
@@ -23,13 +24,16 @@ export class BlogDetailPageComponent {
   backgroundImageUrl!:string;
   htmlContent!: string;
   htmlContent2!: string;
+  currentRoute!: string;
 
-  constructor( private route: ActivatedRoute, private apiService: ApiService, private title: Title ) {
+  constructor( private route: ActivatedRoute, private apiService: ApiService, private title: Title, private router: Router) {
     this.route.params.subscribe(params => this.id = params['id']);
   }
 
   ngOnInit(): void {
     this.getDetailBlog();
+
+    this.currentRoute = this.router.url;
   }
 
 

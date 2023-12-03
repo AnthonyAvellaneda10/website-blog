@@ -53,28 +53,74 @@
             
 
             <!-- CODIGO FUENTE EJEMPLOS -->
-            <h4>{{data.codeTitle}}</h4>
-            <h4>{{data.code.items[0].numberCode}}</h4>
-            <p class="description_example">{{data.code.items[0].description}}</p>
-            <a href="{{data.code.items[0].link}}" target="_blank" class="enlace_codigo">
-              <button class="button-btn">
-                <span class="text">{{data.code.items[0].verFuente}}</span>
-              </button>
-            </a>
-            <h4>{{data.code.items[1].numberCode}}</h4>
-            <p class="description_example">{{data.code.items[1].description}}</p>
-            <a href="{{data.code.items[1].link}}" target="_blank" class="enlace_codigo">
-              <button class="button-btn">
-                <span class="text">{{data.code.items[1].verFuente}}</span>
-              </button>
-            </a>
-            <h4>{{data.code.items[2].numberCode}}</h4>
-            <p class="description_example">{{data.code.items[2].description}}</p>
-            <a href="{{data.code.items[2].link}}" target="_blank" class="enlace_codigo">
-              <button class="button-btn">
-                <span class="text">{{data.code.items[2].verFuente}}</span>
-              </button>
-            </a>
+            <div *ngIf="currentRoute.includes('/blog-detail/1') || currentRoute.includes('/blog-detail/2')">
+              <h4>{{data.codeTitle}}</h4>
+              <h4>{{data.code.items[0].numberCode}}</h4>
+              <p class="description_example">{{data.code.items[0].description}}</p>
+              <a href="{{data.code.items[0].link}}" target="_blank" class="enlace_codigo">
+                <button class="button-btn">
+                  <span class="text">{{data.code.items[0].verFuente}}</span>
+                </button>
+              </a>
+              <h4>{{data.code.items[1].numberCode}}</h4>
+              <p class="description_example">{{data.code.items[1].description}}</p>
+              <a href="{{data.code.items[1].link}}" target="_blank" class="enlace_codigo">
+                <button class="button-btn">
+                  <span class="text">{{data.code.items[1].verFuente}}</span>
+                </button>
+              </a>
+              <h4>{{data.code.items[2].numberCode}}</h4>
+              <p class="description_example">{{data.code.items[2].description}}</p>
+              <a href="{{data.code.items[2].link}}" target="_blank" class="enlace_codigo">
+                <button class="button-btn">
+                  <span class="text">{{data.code.items[2].verFuente}}</span>
+                </button>
+              </a>
+            </div>
+
+            <div *ngIf="currentRoute.includes('/blog-detail/3')">
+              <h4>Uso de la Librería Pandas en la Práctica 🚀📊</h4>
+
+              <h4>Instalación de Pandas 🚀</h4>
+              <p>Si aún no tienes instalada la librería, puedes hacerlo utilizando el siguiente comando en tu entorno de Python:</p>
+            
+              <div class="content-img-container-library">
+                <img src='../../../../../assets/images/pandas/instalacion_pandas.png' alt="Instalación Pandas">
+              </div>
+
+              <h4>Importación de Pandas 📥</h4>
+              <p>Una vez instalado, importa la librería en tu script o cuaderno de Jupyter:</p>
+            
+              <div class="content-img-container-library">
+                <img src='../../../../../assets/images/pandas/importacion_pandas.png' alt="Instalación Pandas">
+              </div>
+
+              <h4>Creación de Datos  📊</h4>
+              <p>Vamos a crear nuestro conjunto de datos para incluir información más detallada sobre las ventas y gastos de cada mes. Además, utilizaremos la función <b><i>display</i></b> para mostrar las tablas de manera más elegante.</p>
+            
+              <div class="content-img-container-library">
+                <img src='../../../../../assets/images/pandas/creacion_datos.png' alt="Instalación Pandas">
+              </div>
+
+              <h4>Filtrado y Comparación de Datos 🔍🔄</h4>
+              <p>Ahora, exploremos cómo realizar filtrado y comparaciones de datos utilizando Pandas. En este ejemplo, identificaremos los meses con ventas superiores a 25,000 y gastos inferiores a 15,000.</p>
+            
+              <div class="content-img-container-library">
+                <img src='../../../../../assets/images/pandas/filtrado_datos.png' alt="Instalación Pandas">
+              </div>
+
+              
+              <a href="https://colab.research.google.com/drive/1xkc3AKgJpGoiztY5AlyzE1Dmlx6X_JQZ?usp=sharing" target="_blank" class="enlace_codigo">
+                <button class="button-btn">
+                  <span class="text">Ver código fuente</span>
+                </button>
+              </a>
+
+              <h4>📚📝 Conclusiones:</h4>
+              <p>
+                En resumen, Pandas es una herramienta esencial para cualquier profesional de datos en Python. Su flexibilidad, eficiencia y amplias capacidades la convierten en la elección ideal para el análisis y manipulación de datos estructurados. Al incorporar Pandas en tu flujo de trabajo, estarás equipado para enfrentar desafíos complejos con elegancia y precisión. ¡Explora el potencial de Pandas y lleva tus habilidades de análisis de datos al siguiente nivel! 🚀🐾
+              </p>
+            </div>
         </div>
         <div class="tags-blog">
             <p>tags:</p>
